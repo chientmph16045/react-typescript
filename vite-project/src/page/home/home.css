@@ -1,0 +1,136 @@
+.banner {
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.banner__info>p:first-child {
+    width: 160px;
+    background-color: #FFEEEE;
+    padding: 12px 24px;
+    border-radius: 5px;
+    color: #F54748;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.banner__info>h2 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.banner__info span {
+    color: #F54748;
+}
+
+.banner__info>p:last-child {
+    margin-top: 32px;
+    font-size: 18px;
+}
+
+.banner__img {
+    text-align: right;
+}
+
+/* --------- popular --------- */
+.popular {
+    margin-top: 96px;
+}
+
+.popular>h2 {
+    font-size: 48px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.popular>p {
+    line-height: 28px;
+    padding: 0 350px;
+    text-align: center;
+}
+
+.popular #filter-select {
+    width: 300px;
+    height: 42px;
+    border: 1px solid #878787;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+
+.popular-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-top: 48px;
+}
+
+.popular__item h3 {
+    margin: 24px 0;
+}
+
+.popular__item h3>a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.popular__item h3>a:hover {
+    color: #F54748;
+}
+
+.popular__item>p {
+    display: flex;
+    align-items: center;
+}
+
+.popular__item>p span {
+    margin: 0px 10px;
+}
+
+.popular__item a img {
+    /* display: block; */
+    width: 100%;
+    border-radius: 0.35rem;
+}
+
+/* --------- popular --------- */
+
+.category .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 96px;
+    margin-bottom: 64px;
+}
+
+.title h2 {
+    font-size: 48px;
+}
+
+.view-all {
+    border: 1px solid #F54748;
+    color: #F54748;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px 24px;
+    font-size: 18px;
+}
+
+.category__list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.category__item img {
+    display: block;
+    width: 100%;
+}
+
+.category__item p {
+    font-weight: bold;
+}

@@ -1,0 +1,70 @@
+.admin {
+    margin-top: 20px;
+}
+
+.add-new {
+    background: #f05462;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 10px 20px 0px;
+    border-radius: 0.35rem;
+}
+.add-new a{
+    text-decoration: none;
+}
+.add-new:hover {
+    color: #f05462;
+    background: white;
+    padding: 3px 8px;
+    border: 2px solid #f05462;
+}
+
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 97%;
+    margin: 10px 20px 10px;
+    
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+thead tr{
+    border-radius: 0.35rem;
+}
+.action1 {
+    padding: 5px;
+    background: #f05462;
+    color: white;
+    font-size: 15px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 0.35rem;
+}
+
+.action2 {
+    padding: 5px;
+    background: #0fe183;
+    color: white;
+    font-size: 15px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 0.35rem;
+}
+
+.add-product{
+    margin: 30px;
+}
+.add-product input {
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.add-product button{
+    border: 1px solid black;
+}
